@@ -1,0 +1,38 @@
+# Maakt van een nieuwe upload (branch "upload") een release, zodat A.M.S. de
+# update kan vinden (electron-updater kijkt naar de nieuwste release).
+name: Release maken
+
+on:
+  push:
+    branches: [upload]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: upload
+          lfs: false
+      - name: Versie bepalen
+        id: versie
+        run: |
+          VERSIE=$(grep -E '^version:' latest.yml | head -1 | awk '{print $2}' | tr -d "'\"")
+          if [ -z "$VERSIE" ]; then echo "Geen versie in latest.yml" >&2; exit 1; fi
+          test -f "AMS-Setup-$VERSIE.exe" || { echo "AMS-Setup-$VERSIE.exe ontbreekt" >&2; exit 1; }
+          echo "versie=$VERSIE" >> "$GITHUB_OUTPUT"
+      - name: Release maken of bijwerken
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSIE: ${{ steps.versie.outputs.versie }}
+        run: |
+          NOTITIES=$(cat NOTITIES.md 2>/dev/null || echo "A.M.S. $VERSIE")
+          if gh release view "v$VERSIE" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "v$VERSIE" "AMS-Setup-$VERSIE.exe" "AMS-Setup-$VERSIE.exe.blockmap" latest.yml --clobber --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "v$VERSIE" "AMS-Setup-$VERSIE.exe" "AMS-Setup-$VERSIE.exe.blockmap" latest.yml \
+              --title "A.M.S. $VERSIE" --notes "$NOTITIES" --latest --repo "$GITHUB_REPOSITORY"
+          fi
