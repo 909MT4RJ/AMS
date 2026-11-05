@@ -1,0 +1,8 @@
+version: 0.18.0
+files:
+  - url: AMS-Setup-0.18.0.exe
+    sha512: cTc3MK4cfbjvEbr0ykFhPJJvkuSMZfQZFBYz5Zg7hUppRhhp1hExN0dfPdaJiin4oH+hYXguZO/6p46O49gDPA==
+    size: 95304274
+path: AMS-Setup-0.18.0.exe
+sha512: cTc3MK4cfbjvEbr0ykFhPJJvkuSMZfQZFBYz5Zg7hUppRhhp1hExN0dfPdaJiin4oH+hYXguZO/6p46O49gDPA==
+releaseDate: '2026-11-05T17:12:00.150Z'
