@@ -1,3 +1,5 @@
-Nieuw in 0.21.0:
+Nieuw in 0.22.0:
 
-- Bij Getekende overeenkomst een vinkje: de getekende overeenkomst ligt op papier in het archief. Dan hoeft er geen scan bij en blijft de melding Getekend terugzetten niet meer open staan.
+- Memo's: de knoppen Gedaan en Later zijn weg
+- Kruisje rechtsboven om een uitgeklapte memo te sluiten
+- Onderaan de knop Voltooid, met een bevestiging
