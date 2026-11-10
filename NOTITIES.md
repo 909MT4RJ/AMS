@@ -1,8 +1,5 @@
-Nieuw in 0.22.2 (volledige controle van het systeem):
+Nieuw in 0.22.3:
 
-- Geen dubbele klant meer als iemand bij een proefrit of afspraak geen e-mailadres opgeeft: A.M.S. herkent de bestaande klant op telefoon en naam
-- Een proefritafspraak wordt meteen aan de bestaande klant gekoppeld
-- Dossier toont de echte afleverdatum
-- After-sales toont alle afgeleverde auto's als er geen lopende garanties zijn
-- Zoekbalk wordt leeg als je de zoekresultaten verlaat
-- Kleine verbeteringen en opruimwerk
+- Dubbele klanten samenvoegen: bij Klanten staat een melding als klanten er dubbel in staan. Kies welke klant blijft; alles (dossiers, proefritten, notities, auto's, memo's) gaat naar die klant. Eerst wordt een back-up gemaakt.
+
+Ook in 0.22.2: geen nieuwe dubbele klanten meer bij een proefrit of afspraak zonder e-mailadres.
