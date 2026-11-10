@@ -1,8 +1,8 @@
-version: 0.22.1
+version: 0.22.2
 files:
-  - url: AMS-Setup-0.22.1.exe
-    sha512: 948FyImpQORCr6UignGRCQ6dxurjuOiXchx0KpG2exSptwIuhv/vOeriCZzKFqP1anV5HKtWZ5V0pS2mFSmqRw==
-    size: 95319717
-path: AMS-Setup-0.22.1.exe
-sha512: 948FyImpQORCr6UignGRCQ6dxurjuOiXchx0KpG2exSptwIuhv/vOeriCZzKFqP1anV5HKtWZ5V0pS2mFSmqRw==
-releaseDate: '2026-11-06T16:41:46.452Z'
+  - url: AMS-Setup-0.22.2.exe
+    sha512: eFpL3q5afjJE4MHl50HRZ3VqEUw1rSYjX+M8eaUxqzFOcL7HiWoNQw08fvVgtd2i3FpkHPwo9Svh/fZXBkVmJw==
+    size: 95320066
+path: AMS-Setup-0.22.2.exe
+sha512: eFpL3q5afjJE4MHl50HRZ3VqEUw1rSYjX+M8eaUxqzFOcL7HiWoNQw08fvVgtd2i3FpkHPwo9Svh/fZXBkVmJw==
+releaseDate: '2026-11-10T12:39:44.555Z'
