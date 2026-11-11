@@ -1,4 +1,12 @@
-Nieuw in 0.29.0:
+Nieuw in 0.30.0:
+
+- Administratie → Bank: bankafschrift (CAMT.053) inlezen; ontvangen bedragen worden aan openstaande facturen gekoppeld en met één klik op betaald gezet.
+- Administratie → Btw: overzicht per kwartaal (rubriek 1a, margeregeling met doorschuiven, voorbelasting uit autokosten) als hulp bij de aangifte.
+- Automatisering prijsbewaking: voorraad laten taxeren en een memo als de vraagprijs afwijkt van de marktwaarde.
+- AI-assistent (Instellingen → Koppelingen → AI-assistent, eigen API-sleutel van Anthropic): advertentietekst bij een auto en een antwoord op een lead voorschrijven.
+- Verbeterd: bij een auto in de voorraad zie je weer welke klanten zo'n auto zoeken.
+
+In 0.29.0:
 
 - Pinautomaat aan de balie (Instellingen → Koppelingen → Pinautomaat: Mollie, SumUp, Stripe of Adyen). Met de knop Pinnen op een factuur (verkoop en werkplaats) of in het dossier gaat het bedrag naar de pinautomaat; na het pinnen staat de factuur vanzelf op betaald.
 - Zoekopdrachten op de klantkaart: past er een nieuwe auto in de voorraad, dan krijgt de klant een bericht (automatisering) en jij een memo.
