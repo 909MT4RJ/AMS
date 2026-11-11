@@ -1,4 +1,8 @@
-Nieuw in 0.25.0:
+Nieuw in 0.26.0:
+
+- Werkplaatsfactuur: zet arbeid (uren × uurtarief) en onderdelen op een werkorder en maak met één klik de factuur (zelfde nummering als de verkoopfacturen, archief-PDF, betaald, creditfactuur en boekhoudkoppeling). Overzicht bij Werkplaats → Facturen.
+
+In 0.25.0:
 
 - Werkplaats (extra pakket): weekplanning en werkorders voor APK, onderhoud, reparatie, banden en afleverklaar maken. Zet hem aan bij Instellingen → Werkplaats.
 - Afdeling per medewerker (verkoop, werkplaats of beide). De werkplaats ziet geen verkoop; de verkoop ziet de planning van de werkplaats.
