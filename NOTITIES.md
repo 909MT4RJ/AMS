@@ -1,4 +1,11 @@
-Nieuw in 0.28.0:
+Nieuw in 0.29.0:
+
+- Pinautomaat aan de balie (Instellingen → Koppelingen → Pinautomaat: Mollie, SumUp, Stripe of Adyen). Met de knop Pinnen op een factuur (verkoop en werkplaats) of in het dossier gaat het bedrag naar de pinautomaat; na het pinnen staat de factuur vanzelf op betaald.
+- Zoekopdrachten op de klantkaart: past er een nieuwe auto in de voorraad, dan krijgt de klant een bericht (automatisering) en jij een memo.
+- Inruilauto komt na de aflevering vanzelf in de voorraad (automatisering).
+- Factuur mailen als PDF en een betaallink bij een factuur; optioneel automatisch mailen na het maken (Instellingen → Facturatie).
+
+In 0.28.0:
 
 - Automatiseringen (Instellingen → Automatiseringen): lead meteen beantwoorden en opvolgen, offerte opvolgen, verjaardag, "al een jaar in uw auto", garantie loopt af, betalingsherinneringen, tenaamstelling, stadagen, onderhoudsherinnering en bandenwissel. Alles staat standaard uit en geldt alleen voor nieuwe zaken na het aanzetten.
 
