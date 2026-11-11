@@ -1,4 +1,8 @@
-Nieuw in 0.27.0:
+Nieuw in 0.28.0:
+
+- Automatiseringen (Instellingen → Automatiseringen): lead meteen beantwoorden en opvolgen, offerte opvolgen, verjaardag, "al een jaar in uw auto", garantie loopt af, betalingsherinneringen, tenaamstelling, stadagen, onderhoudsherinnering en bandenwissel. Alles staat standaard uit en geldt alleen voor nieuwe zaken na het aanzetten.
+
+In 0.27.0:
 
 - Werkplaats: optioneel een sms, WhatsApp en/of e-mail aan de klant zodra zijn auto klaar is (Instellingen → Werkplaats; de sms-aanbieder stel je zelf in bij Koppelingen → SMS en WhatsApp). Per werkorder aan of uit.
 
