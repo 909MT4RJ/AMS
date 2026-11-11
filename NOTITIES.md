@@ -1,4 +1,8 @@
-Nieuw in 0.26.0:
+Nieuw in 0.27.0:
+
+- Werkplaats: optioneel een sms, WhatsApp en/of e-mail aan de klant zodra zijn auto klaar is (Instellingen → Werkplaats; de sms-aanbieder stel je zelf in bij Koppelingen → SMS en WhatsApp). Per werkorder aan of uit.
+
+In 0.26.0:
 
 - Werkplaatsfactuur: zet arbeid (uren × uurtarief) en onderdelen op een werkorder en maak met één klik de factuur (zelfde nummering als de verkoopfacturen, archief-PDF, betaald, creditfactuur en boekhoudkoppeling). Overzicht bij Werkplaats → Facturen.
 
