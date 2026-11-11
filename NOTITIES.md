@@ -1,5 +1,8 @@
-Nieuw in 0.22.3:
+Nieuw in 0.24.0:
 
-- Dubbele klanten samenvoegen: bij Klanten staat een melding als klanten er dubbel in staan. Kies welke klant blijft; alles (dossiers, proefritten, notities, auto's, memo's) gaat naar die klant. Eerst wordt een back-up gemaakt.
+- APK: A.M.S. haalt de APK-datum van auto's van klanten en van de voorraad automatisch op bij de RDW. Klanten kunnen zelf een APK-herinnering krijgen per e-mail en/of sms/WhatsApp (Instellingen → Opvolging). Bij een auto van een klant staat een RDW-knop.
+- Betaallinks: stuur de klant vanuit het dossier een link voor de aanbetaling of het restbedrag (Mollie, Stripe, MultiSafepay of Adyen). A.M.S. ziet zelf wanneer er betaald is.
+- Voorraad publiceren: de auto's die te koop staan gaan automatisch naar je website (map, FTP of webhook).
+- Bedrijfsgegevens: eigen logo en huiskleur op offertes, overeenkomsten en facturen (Instellingen → Bedrijfsgegevens).
 
-Ook in 0.22.2: geen nieuwe dubbele klanten meer bij een proefrit of afspraak zonder e-mailadres.
+Let op: update de hoofd-pc en de werkplekken samen (nieuwe databaseversie).
