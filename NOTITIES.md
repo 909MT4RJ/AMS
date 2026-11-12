@@ -1,4 +1,10 @@
-Nieuw in 0.30.0:
+Nieuw in 0.31.0:
+
+- Inloggen met gebruikersnaam en wachtwoord, met optioneel tweestapsverificatie (code van je telefoon). Instellingen → Mijn account.
+- De eerste keer: gebruikersnaam = je naam in kleine letters met een punt (bijv. coen.droomers), wachtwoord = je oude pincode. Daarna kies je een eigen wachtwoord. Al je gegevens blijven gewoon staan.
+- Kentekens breken niet meer af over twee regels.
+
+In 0.30.0:
 
 - Administratie → Bank: bankafschrift (CAMT.053) inlezen; ontvangen bedragen worden aan openstaande facturen gekoppeld en met één klik op betaald gezet.
 - Administratie → Btw: overzicht per kwartaal (rubriek 1a, margeregeling met doorschuiven, voorbelasting uit autokosten) als hulp bij de aangifte.
