@@ -1,4 +1,8 @@
-Nieuw in 0.31.0:
+Nieuw in 0.31.1:
+
+- A.M.S. vergrendelt niet meer vanzelf na 15 minuten. Vergrendelen doe je zelf (links onderin).
+
+In 0.31.0:
 
 - Inloggen met gebruikersnaam en wachtwoord, met optioneel tweestapsverificatie (code van je telefoon). Instellingen → Mijn account.
 - De eerste keer: gebruikersnaam = je naam in kleine letters met een punt (bijv. coen.droomers), wachtwoord = je oude pincode. Daarna kies je een eigen wachtwoord. Al je gegevens blijven gewoon staan.
