@@ -1,4 +1,8 @@
-Nieuw in 0.31.1:
+Nieuw in 0.31.2:
+
+- Afleveringen: bij Afgeleverd en Datum verstreken staat nu ook de datum.
+
+In 0.31.1:
 
 - A.M.S. vergrendelt niet meer vanzelf na 15 minuten. Vergrendelen doe je zelf (links onderin).
 
