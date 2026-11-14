@@ -1,4 +1,8 @@
-Nieuw in 0.31.2:
+Nieuw in 0.31.3:
+
+- Vensters: past de rij met knoppen onderaan niet, dan scroll je hem naar links en rechts; er valt niets meer weg.
+
+In 0.31.2:
 
 - Afleveringen: bij Afgeleverd en Datum verstreken staat nu ook de datum.
 
